@@ -1,2 +1,3 @@
-import Distribution.Simple
+{-# LANGUAGE PackageImports #-}
+import "Cabal" Distribution.Simple
 main = defaultMain
